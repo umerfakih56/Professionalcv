@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Maker</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            background-image: linear-gradient(to right, #4f46e5, #3b82f6);
+            background-size: cover;
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100">
+
+    <!-- Header -->
+    <header class="bg-gradient-to-r from-purple-600 to-blue-600 text-white py-6 shadow-lg">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <h1 class="text-4xl font-bold tracking-wider">Professional CV</h1>
+            <!-- Simulated download link -->
+            <a href="#" download="john-doe-cv.pdf"
+                class="bg-white text-purple-600 font-semibold py-3 px-6 rounded-full shadow-md hover:bg-purple-100 transition duration-300">
+                Download PDF
+            </a>
+        </div>
+    </header>
+
+    <!-- Main CV Container -->
+    <div class="max-w-4xl mx-auto my-10 bg-white shadow-2xl rounded-lg overflow-hidden">
+
+        <!-- Profile Section -->
+        <div class="p-10 bg-gradient-to-r from-purple-100 to-purple-50 border-b border-gray-200">
+            <div class="flex justify-between items-center">
+                <div>
+                    <h1 class="text-5xl font-bold text-purple-900 tracking-wide">M.Umer Hussain</h1>
+                    <p class="text-2xl text-gray-700">Full Stack Developer</p>
+                </div>
+                <div class="text-right space-y-2">
+                    <p class="flex items-center space-x-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-purple-500" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M16 12H8m8 4H8m4-12v8m8 8H4" />
+                        </svg>
+                        <span>Email: fakihumar82@gmail.com</span>
+                    </p>
+                    <p class="flex items-center space-x-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-purple-500" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M13 17h8m0 0V9m-8 8l-4 4m0 0l4-4m4 0V9" />
+                        </svg>
+                        <span>Phone: +92 111244622</span>
+                    </p>
+                    <p class="flex items-center space-x-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-purple-500" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M3 10h18M12 21l9-11H3l9 11z" />
+                        </svg>
+                        <span>Location: Karachi,Pakistan</span>
+                    </p>
+                </div>
+            </div>
+            <p class="mt-6 text-gray-600 leading-relaxed text-lg">
+                A highly motivated full stack developer with 5+ years of experience in creating user-centric web
+                applications. Passionate about building robust solutions with modern technologies.
+            </p>
+        </div>
+
+        <!-- Experience Section -->
+        <div class="p-10">
+            <h2 class="text-3xl font-semibold text-purple-900 mb-6 border-b-4 border-purple-600 pb-2">Experience</h2>
+            <div class="mb-8">
+                <h3 class="text-xl font-semibold text-gray-800">Senior Full Stack Developer</h3>
+                <p class="text-gray-500 italic">Microsoft Inc. - 2020 to Present</p>
+                <ul class="list-disc ml-6 mt-3 text-gray-700 space-y-2">
+                    <li>Developed full-stack web applications using React and Node.js.</li>
+                    <li>Improved UI/UX, resulting in a 20% increase in customer satisfaction.</li>
+                    <li>Led a team of developers to optimize performance and scalability.</li>
+                </ul>
+            </div>
+
+            <div class="mb-8">
+                <h3 class="text-xl font-semibold text-gray-800">Full Stack Developer</h3>
+                <p class="text-gray-500 italic">Amazon - 2017 to 2020</p>
+                <ul class="list-disc ml-6 mt-3 text-gray-700 space-y-2">
+                    <li>Developed and maintained full-stack web applications using PHP and JavaScript.</li>
+                    <li>Worked closely with designers to create responsive UI/UX layouts.</li>
+                    <li>Optimized website performance, reducing load time by 30%.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Education Section -->
+        <div class="p-10 bg-gradient-to-r from-purple-50 to-indigo-50">
+            <h2 class="text-3xl font-semibold text-purple-900 mb-6 border-b-4 border-purple-600 pb-2">Education</h2>
+            <div class="mb-6">
+                <h3 class="text-xl font-semibold text-gray-800">Bachelor's Degree in Computer Science</h3>
+                <p class="text-gray-500 italic">University of Karachi - 2018 to 2022</p>
+                <p class="text-gray-700 mt-2">Graduated with bachelors, specializing in web development and algorithms.</p>
+            </div>
+        </div>
+
+        <!-- Skills Section -->
+        <div class="p-10 bg-gradient-to-r from-indigo-50 to-blue-50">
+            <h2 class="text-3xl font-semibold text-purple-900 mb-6 border-b-4 border-purple-600 pb-2">Skills</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+                <!-- Skill Card -->
+                <div class="flex items-center space-x-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-purple-600" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M8 12l2-2m0 0l4 4m-4-4l-4 4m0 0l4-4m6-6v6m0 0l-6-6m0 0H9m3 3v9" />
+                    </svg>
+                    <div class="w-full">
+                        <h3 class="text-xl font-semibold text-gray-800">JavaScript (ES6+)</h3>
+                        <div class="w-full bg-gray-300 rounded-full h-2.5">
+                            <div class="bg-purple-600 h-2.5 rounded-full" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill Card -->
+                <div class="flex items-center space-x-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-purple-600" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M13 17h8m0 0V9m-8 8l-4 4m0 0l4-4m4 0V9" />
+                    </svg>
+                    <div class="w-full">
+                        <h3 class="text-xl font-semibold text-gray-800">React & Next.js</h3>
+                        <div class="w-full bg-gray-300 rounded-full h-2.5">
+                            <div class="bg-purple-600 h-2.5 rounded-full" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill Card -->
+                <div class="flex items-center space-x-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-purple-600" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 12V3h7v18H4a1 1 0 01-1-1V13h1V12zm12-7h7v12h-7z" />
+                    </svg>
+                    <div class="w-full">
+                        <h3 class="text-xl font-semibold text-gray-800">Node.js & Express</h3>
+                        <div class="w-full bg-gray-300 rounded-full h-2.5">
+                            <div class="bg-purple-600 h-2.5 rounded-full" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill Card -->
+                <div class="flex items-center space-x-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-purple-600" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M12 9V3m0 0H8m4 0h4m-4 0l4 4m0 0H8m4 0V3m0 12v9" />
+                    </svg>
+                    <div class="w-full">
+                        <h3 class="text-xl font-semibold text-gray-800">HTML5 & CSS3</h3>
+                        <div class="w-full bg-gray-300 rounded-full h-2.5">
+                            <div class="bg-purple-600 h-2.5 rounded-full" style="width: 95%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill Card -->
+                <div class="flex items-center space-x-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-purple-600" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M3 15V5a1 1 0 011-1h16a1 1 0 011 1v10m-6 6H7l6-6h6l6 6" />
+                    </svg>
+                    <div class="w-full">
+                        <h3 class="text-xl font-semibold text-gray-800">Tailwind CSS</h3>
+                        <div class="w-full bg-gray-300 rounded-full h-2.5">
+                            <div class="bg-purple-600 h-2.5 rounded-full" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill Card -->
+                <div class="flex items-center space-x-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-purple-600" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M19 13l-5 5m0 0L9 13m5 5V9" />
+                    </svg>
+                    <div class="w-full">
+                        <h3 class="text-xl font-semibold text-gray-800">MongoDB</h3>
+                        <div class="w-full bg-gray-300 rounded-full h-2.5">
+                            <div class="bg-purple-600 h-2.5 rounded-full" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="bg-gradient-to-r from-purple-600 to-blue-600 text-white py-6">
+            <div class="max-w-7xl mx-auto flex justify-center items-center">
+                <p class="text-lg">&copy; 2024 Micro World. All rights reserved.</p>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
